@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SFDX  App
 
 ## Dev, Build and Test
@@ -12,3 +13,6 @@
 ## Issues
 
 
+=======
+# SalesforceDX
+>>>>>>> dd7d0046bff179ec1cb50095f228f2ce3da92108
