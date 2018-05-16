@@ -1,0 +1,13 @@
+<apex:page standardController="Account" recordSetVar="accounts" extensions="PageExt">
+<apex:form >
+<apex:pageBlock >
+<apex:pageBlockTable value="{!accounts}" var="a">
+<apex:column value="{!a.name}"/>
+<apex:column value="{!a.type}"/>
+<apex:column value="{!a.billingcity}"/>
+<apex:column value="{!a.billingstate}"/>
+<apex:column value="{!a.billingcountry}"/>
+</apex:pageBlockTable>
+</apex:pageBlock>
+</apex:form>
+</apex:page>
